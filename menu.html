@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    .cartnum{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        height: 20px;
+        font-size: 40px;
+    }
+</style>
+
+<body>
+    <!-- In menu.html, show the menu of available dishes, you can show random dishes.
+         No need to add categories and all. Use this api 
+        to get dishes data https://www.themealdb.com/api.php?ref=apilist.fun -->
+
+        <div class="cartnum"><span>cart</span></div>
+        
+        <div class="navbar">
+            <div class="login" onclick="gotologin()">Login</div>
+            <div class="signup" onclick="gotosignup()">Signup</div>
+            <div class="menu" onclick="gotomenu()">Menu</div>
+        </div>
+
+        <div class="dishes"></div>
+</body>
+</html>
+<script src="menu.js"></script>
+<script src="index.js"></script>

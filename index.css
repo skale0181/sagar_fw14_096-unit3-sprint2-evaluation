@@ -1,0 +1,14 @@
+.navbar{
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  width: 90%;
+  height: 100px;
+  border: 1px solid gray;
+}
+.navbar>div{
+    margin-right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}

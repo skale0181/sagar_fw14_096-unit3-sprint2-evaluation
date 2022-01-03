@@ -1,0 +1,19 @@
+
+.dishes{
+    width: 90%;
+    height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.images{
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    margin-top: 20px;
+
+}
+.images>img{
+    width: 100;
+    height: 70%;
+
+}
